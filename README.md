@@ -5,8 +5,10 @@
 本仓库仅包含 Pluck 版本。
 
 - [工程、装配说明及验证结果](SweepPluck/README.txt)
+- [电池与电源开关焊接图](SweepPluck/power-guide/README.md)
 - [PCB 下单文件](SweepPluck/SweepPluck-JLCPCB.zip)
 - [旅行便携盒](SweepPluck/travel-case/)
 - [许可证](LICENSE)
 
 设计基于 [Sweep](https://github.com/davidphilipbarr/Sweep)。Pluck 的历史设计归档保存在 `SweepPluck/archive/`。
+

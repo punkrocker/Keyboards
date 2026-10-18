@@ -1,6 +1,10 @@
 SweepPluck v3.1 — 可翻面的正交分体键盘
 ======================================
 
+电池与电源开关焊接图
+  见 power-guide/README.md，含左手 F 面、右手 B 面焊盘图及焊接检查步骤。
+  电池正极接 BATP1/BAT，负极接 BATG1/GND；开关 2–3 脚控制 BAT 到 RAW。
+
 旅行便携盒
   travel-case/ 为裸 PCB + 3 mm 防滑垫配置的便携盒模型与 EVA 内托裁切图。
   轴体按 Choc V2，键帽高度按 K3 兼容矮键帽 4.4 mm 估算，主控为插座安装的 nice!nano。
@@ -136,3 +140,4 @@ SweepPluck v3.1 — 可翻面的正交分体键盘
   nice!nano 引脚图：https://nicekeyboards.com/docs/nice-nano/pinout-schematic/
   Freerouting：https://github.com/freerouting/freerouting/releases/tag/v2.1.0
   授权沿用本仓库 LICENSE。
+
