@@ -32,6 +32,10 @@ SweepPluck v3.1 — 可翻面的正交分体键盘
   每片板有两个 3.2 mm 安装孔，仍位于原主键网格交点。
   此版本交付单片板；整套使用两片相同 PCB，没有折断桥。
 
+主控焊接标记图
+  见 mcu-guide/README.md，含左手 L 组、右手 R 组实际 PCB 标记及放大图。
+  绿色圈出的两排共 24 孔为本侧主控焊孔，并标明 USB 朝向。
+
 装配方法
   左手：将丝印 LEFT 的 F 面朝上，在此面装轴体、TRRS、电源及复位开关。
         主控装在 U1 的两排 L 孔中，USB 朝左侧外缘。
@@ -140,4 +144,5 @@ SweepPluck v3.1 — 可翻面的正交分体键盘
   nice!nano 引脚图：https://nicekeyboards.com/docs/nice-nano/pinout-schematic/
   Freerouting：https://github.com/freerouting/freerouting/releases/tag/v2.1.0
   授权沿用本仓库 LICENSE。
+
 
