@@ -4,13 +4,17 @@
 
 ## 左手：F 面朝上
 
-![左手 F 面电池与开关焊盘](power_LEFT.png)
+![左手 F 面实际 PCB 焊接标记](power_board_LEFT.png)
+
+[查看矢量图](power_board_LEFT.svg) · [简化焊盘图](power_LEFT.png)
 
 ## 右手：B 面朝上
 
-![右手 B 面电池与开关焊盘](power_RIGHT.png)
+![右手 B 面实际 PCB 焊接标记](power_board_RIGHT.png)
 
-图中位置读取自 `SweepPluck-pins.csv`，开关轮廓及固定焊盘位置核对自当前 PCB。图是焊盘局部示意，不是元件尺寸图或 PCB 的全部铜层。
+[查看矢量图](power_board_RIGHT.svg) · [简化焊盘图](power_RIGHT.png)
+
+主图直接使用 KiCad 导出的实际 F/B 面 PCB 示意图，红圈标电池正极，蓝圈标负极，绿框标电源开关；右侧为同一电源区域的放大图，标出开关 1、2、3 脚。标记坐标读取自 `SweepPluck-pins.csv`，右手使用镜像坐标。图不用于尺寸测量，也不表示 PCB 的全部铜层。
 
 ## 焊接顺序
 
@@ -29,3 +33,6 @@
 `RAW` 是这块 PCB 的网络名，不代表所有 Pro Micro 兼容主控都能使用同一种电池。请按实际主控文档核对该位置对应的电池输入、电压范围及充电功能。PCB 本身没有独立充电电路；不得把电池正极改接到 VCC，也不要短接 BAT 与 RAW 来代替开关。该开关只切换 BAT 到 RAW 的通路，OFF 不保证 USB 等其他电源已断开。
 
 本文仅补充装配说明，没有修改 PCB、电路或生产 Gerber。图可运行 `python SweepPluck/tools/power_guide.py` 重新生成（需要 Pillow 和微软雅黑字体）。
+
+实际 PCB 标注矢量图可运行 `python SweepPluck/tools/power_board_guide.py` 重新生成；PNG 可用 SVG 渲染器（如 resvg）从同名 SVG 导出。
+
