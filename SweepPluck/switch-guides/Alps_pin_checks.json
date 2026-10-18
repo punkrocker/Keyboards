@@ -1,0 +1,614 @@
+[
+  {
+    "switch": 1,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch1",
+      "GND"
+    ]
+  },
+  {
+    "switch": 1,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch1"
+    ]
+  },
+  {
+    "switch": 2,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch2",
+      "GND"
+    ]
+  },
+  {
+    "switch": 2,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch2"
+    ]
+  },
+  {
+    "switch": 3,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch3",
+      "GND"
+    ]
+  },
+  {
+    "switch": 3,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch3"
+    ]
+  },
+  {
+    "switch": 4,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch4",
+      "GND"
+    ]
+  },
+  {
+    "switch": 4,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch4"
+    ]
+  },
+  {
+    "switch": 5,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch5",
+      "GND"
+    ]
+  },
+  {
+    "switch": 5,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch5"
+    ]
+  },
+  {
+    "switch": 6,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch6",
+      "GND"
+    ]
+  },
+  {
+    "switch": 6,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch6"
+    ]
+  },
+  {
+    "switch": 7,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch7",
+      "GND"
+    ]
+  },
+  {
+    "switch": 7,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch7"
+    ]
+  },
+  {
+    "switch": 8,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch8",
+      "GND"
+    ]
+  },
+  {
+    "switch": 8,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch8"
+    ]
+  },
+  {
+    "switch": 9,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch9",
+      "GND"
+    ]
+  },
+  {
+    "switch": 9,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch9"
+    ]
+  },
+  {
+    "switch": 10,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch10",
+      "GND"
+    ]
+  },
+  {
+    "switch": 10,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch10"
+    ]
+  },
+  {
+    "switch": 11,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch11",
+      "GND"
+    ]
+  },
+  {
+    "switch": 11,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch11"
+    ]
+  },
+  {
+    "switch": 12,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch12",
+      "GND"
+    ]
+  },
+  {
+    "switch": 12,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch12"
+    ]
+  },
+  {
+    "switch": 13,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch13",
+      "GND"
+    ]
+  },
+  {
+    "switch": 13,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch13"
+    ]
+  },
+  {
+    "switch": 14,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch14",
+      "GND"
+    ]
+  },
+  {
+    "switch": 14,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch14"
+    ]
+  },
+  {
+    "switch": 15,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch15",
+      "GND"
+    ]
+  },
+  {
+    "switch": 15,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch15"
+    ]
+  },
+  {
+    "switch": 16,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch16",
+      "GND"
+    ]
+  },
+  {
+    "switch": 16,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch16"
+    ]
+  },
+  {
+    "switch": 17,
+    "assembly_side": "F",
+    "local_pins_kicad_mm": [
+      [
+        -2.5,
+        -4
+      ],
+      [
+        5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "Switch17",
+      "GND"
+    ]
+  },
+  {
+    "switch": 17,
+    "assembly_side": "B",
+    "local_pins_kicad_mm": [
+      [
+        2.5,
+        -4
+      ],
+      [
+        -5,
+        -5.55
+      ]
+    ],
+    "nets": [
+      "GND",
+      "Switch17"
+    ]
+  }
+]

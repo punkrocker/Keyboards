@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "SweepPluck") (type "KiCad") (uri "${KIPRJMOD}/SweepPluck.kicad_sym") (options "") (descr "Reversible direct GPIO pin wiring")))

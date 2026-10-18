@@ -1,0 +1,8 @@
+{
+  "reversible_switch_terminal_checks": 102,
+  "original_switch_drill_centres_retained": 153,
+  "original_gpio_mapping_preserved_both_faces": true,
+  "original_key_positions_preserved": true,
+  "controller_and_plate_envelopes_clear": true,
+  "schematic_matches_pcb": true
+}

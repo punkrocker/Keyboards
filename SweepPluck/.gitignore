@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+# Project data needed to reproduce and inspect the Pluck design.
+!*-pins.csv
+!/verification/SweepPluck.xml
+!/verification/SweepPluck.dsn
+!/verification/SweepPluck.ses

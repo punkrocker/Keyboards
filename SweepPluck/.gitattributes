@@ -1,0 +1,2 @@
+# Preserve exact fabrication/source bytes and their recorded SHA-256 hashes.
+* -text

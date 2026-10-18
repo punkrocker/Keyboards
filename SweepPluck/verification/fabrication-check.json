@@ -1,0 +1,70 @@
+{
+  "zip": "SweepPluck-JLCPCB.zip",
+  "zip_sha256": "c792b623f70f4a294f590702e1f6fa9e0ff403c8805fecb4360959962eda88f2",
+  "independent_parser": "Gerbv 2.10.0",
+  "files_parsed": 9,
+  "parse_errors": 0,
+  "outline_mm": [
+    95.25,
+    80.0
+  ],
+  "solder_mask_openings": {
+    "TopSolderMask.GTS": {
+      "pcb_openings_checked": 277,
+      "gerber_flashes": 277
+    },
+    "BottomSolderMask.GBS": {
+      "pcb_openings_checked": 277,
+      "gerber_flashes": 277
+    }
+  },
+  "drill_operations": {
+    "Plated.DRL": {
+      "operations": 222,
+      "slots": 127
+    },
+    "NonPlated.DRL": {
+      "operations": 57,
+      "slots": 34
+    }
+  },
+  "parser_results": {
+    "BoardOutline.GKO": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "BottomCopper.GBL": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "BottomSilkscreen.GBO": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "BottomSolderMask.GBS": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "NonPlated.DRL": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "Plated.DRL": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "TopCopper.GTL": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "TopSilkscreen.GTO": {
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    "TopSolderMask.GTS": {
+      "exit_code": 0,
+      "diagnostics": ""
+    }
+  },
+  "jlcpcb_online_upload_verified": false
+}

@@ -1,0 +1,63 @@
+{
+  "project": "SweepPluck",
+  "revision": "3.1",
+  "pcb_designs": 1,
+  "reversible": true,
+  "board_mm": [
+    95.25,
+    80
+  ],
+  "boards_per_keyboard": 2,
+  "keys_per_board": 17,
+  "keys_per_keyboard": 34,
+  "controller_mount": "U1 dual row footprint: L rows from F side for left, R rows from B side for right",
+  "controller_row_offset_mm": 2.54,
+  "mcu_solder_jumpers": 0,
+  "controller_header_drill_mm": 1.0,
+  "pth_pads_with_openings_both_masks": 211,
+  "original_gpio_mapping_preserved_both_faces": true,
+  "original_key_positions_preserved": true,
+  "switch_terminal_checks_both_faces": 102,
+  "original_switch_drill_centres_retained": 153,
+  "matching_pin_net_assignments": 68,
+  "schematic_matches_pcb": true,
+  "schematic_parity_issues": 0,
+  "erc_violations": 0,
+  "traces_and_vias": 645,
+  "kicad_version": "10.0.7-10.0.7~ubuntu24.04.1",
+  "board_sha256": "064bd59655fa9ea2636d58650f9668a42c496a999c3ad3dac530197f93b391e0",
+  "physical_prototype_tested": false,
+  "drc-SweepPluck": {
+    "violations": 0,
+    "unconnected_items": 0
+  },
+  "drc-SweepPluck-plate": {
+    "violations": 0,
+    "unconnected_items": 0
+  },
+  "manufacturing_files": {
+    "SweepPluck-B_Cu.gbl": "fbc760bbbf64252e858ba444a0841a53a6638e6c733188b6485acde41d0f8a0a",
+    "SweepPluck-B_Mask.gbs": "48398e121e22f4e5a0d9f00b0eb5915ec4460ba9b928f8f48b7db412d1847931",
+    "SweepPluck-B_Silkscreen.gbo": "1e54793b5cab80f53c2a2a251b598b1c450d760e358de807357b14fa24586c5e",
+    "SweepPluck-Edge_Cuts.gm1": "40027c02526e28589a88fa51e50819a8081998c629b77c9c863b0039f14b2c6d",
+    "SweepPluck-F_Cu.gtl": "39a625570dee6ffb2bcf2bea2dfebd827bd4abb9fe5373e07d9bfe4aa123e23d",
+    "SweepPluck-F_Mask.gts": "d25610ed6397b3f1b4c481a3014dd4411fe87b4f5fcca1ff31abf378075be038",
+    "SweepPluck-F_Silkscreen.gto": "e9bc78146cc6a25f1a2852fdeacbeb074fda203c8a987f5c2271f07204171863",
+    "SweepPluck-NPTH.drl": "fb772ef58382f5ecbb37b94faa5fd5256f36577c1929b6994784ec888df1cfe6",
+    "SweepPluck-PTH.drl": "165e276bf7a2cf88f0e5ecfb645afda09895a14007b3a77b18fd8c91a9eadb10",
+    "SweepPluck-job.gbrjob": "27ed529d398fbf0cf51d67e57d5fd933313ac3ffb89ef90a181e179f8c7e7843"
+  },
+  "upload_file_hashes": {
+    "BottomCopper.GBL": "fbc760bbbf64252e858ba444a0841a53a6638e6c733188b6485acde41d0f8a0a",
+    "BottomSolderMask.GBS": "48398e121e22f4e5a0d9f00b0eb5915ec4460ba9b928f8f48b7db412d1847931",
+    "BottomSilkscreen.GBO": "1e54793b5cab80f53c2a2a251b598b1c450d760e358de807357b14fa24586c5e",
+    "BoardOutline.GKO": "40027c02526e28589a88fa51e50819a8081998c629b77c9c863b0039f14b2c6d",
+    "TopCopper.GTL": "39a625570dee6ffb2bcf2bea2dfebd827bd4abb9fe5373e07d9bfe4aa123e23d",
+    "TopSolderMask.GTS": "d25610ed6397b3f1b4c481a3014dd4411fe87b4f5fcca1ff31abf378075be038",
+    "TopSilkscreen.GTO": "e9bc78146cc6a25f1a2852fdeacbeb074fda203c8a987f5c2271f07204171863",
+    "NonPlated.DRL": "fb772ef58382f5ecbb37b94faa5fd5256f36577c1929b6994784ec888df1cfe6",
+    "Plated.DRL": "165e276bf7a2cf88f0e5ecfb645afda09895a14007b3a77b18fd8c91a9eadb10"
+  },
+  "upload_format": "RS-274X without X2/netlist/macros; Protel extensions; Excellon decimal mm; positive plot coordinates",
+  "gerber_zip_sha256": "c792b623f70f4a294f590702e1f6fa9e0ff403c8805fecb4360959962eda88f2"
+}

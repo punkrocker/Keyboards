@@ -1,0 +1,82 @@
+{
+  "units": "mm",
+  "pcb_size": [
+    95.25,
+    80.0,
+    1.6
+  ],
+  "nonslip_pad": 3,
+  "height_status": "K3 keycap proxy; nice!nano 3.2 mm envelope plus configurable socket mounting allowance; not physically verified",
+  "controller": {
+    "model": "nice!nano",
+    "mounting": "socketed, face down per keyboard README",
+    "module_thickness_mm": 3.2,
+    "module_reference": "https://nicekeyboards.com/docs/nice-nano/",
+    "pcb_to_module_lowest_envelope_gap_allowance_mm": 8.5,
+    "estimated_top_above_pcb_mm": 11.7,
+    "headroom_inside_half_mm": 3.700000000000001,
+    "socket_part": "unspecified; gap is a design allowance, not measured hardware"
+  },
+  "keycap_reference": "https://www.keychron.com/products/low-profile-double-shot-pbt-keycap-set",
+  "height_budget_mm": {
+    "pad": 3,
+    "pcb": 1.6,
+    "switch_above_pcb_design_allowance_not_vendor_dimension": 10,
+    "keycap_proxy_height": 4.4,
+    "estimated_stack_without_deducting_stem_overlap": 19,
+    "clearance_each_half": 1,
+    "max_mcu_height_above_pcb": 14.4
+  },
+  "cavity_xy": [
+    103.25,
+    88.0
+  ],
+  "half_inside_depth": 20,
+  "closed_size": [
+    108.05,
+    92.8,
+    44.8
+  ],
+  "extra_bottom_padding": 0,
+  "maximum_assembly_height_including_pad_with_2mm_face_gap": 19,
+  "lip_clearance_each_side": 0.3,
+  "parts": {
+    "base": {
+      "size": [
+        108.05000305175781,
+        92.80000305175781,
+        22.399999618530273
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 42518.90956500192
+    },
+    "lid": {
+      "size": [
+        108.05000305175781,
+        92.80000305175781,
+        24.0
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 43793.83086486001
+    }
+  },
+  "source_sha256": {
+    "SweepPluck.kicad_pcb": "064bd59655fa9ea2636d58650f9668a42c496a999c3ad3dac530197f93b391e0"
+  },
+  "closed_shell_intersection_mm3": 0.0,
+  "lip_opening_xy": [
+    100.25,
+    85.0
+  ],
+  "foam_locator": {
+    "thickness": 4,
+    "pocket_xy": [
+      96.05,
+      80.8
+    ],
+    "quantity": 2,
+    "note": "hand-fit soft foam; relieve around underside solder joints and connectors"
+  }
+}

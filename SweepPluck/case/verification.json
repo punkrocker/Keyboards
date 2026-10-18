@@ -1,0 +1,88 @@
+{
+  "pcb_sha256": "064bd59655fa9ea2636d58650f9668a42c496a999c3ad3dac530197f93b391e0",
+  "plate_sha256": "a19c44cf26c78bbfbab38412af4601790b6d8bb6ee63a27ae8cebc00cef1232e",
+  "pcb_mm": [
+    95.25,
+    80.0,
+    1.6
+  ],
+  "pcb_origin_kicad_mm": [
+    35.475,
+    50.475
+  ],
+  "holes_model_mm": [
+    [
+      19.049999999999997,
+      60.949999999999996
+    ],
+    [
+      76.19999999999999,
+      41.9
+    ]
+  ],
+  "parameters_mm": {
+    "clearance_each_side": 0.3,
+    "wall": 2.4,
+    "floor": 2.0,
+    "pcb_underside_z": 8.0,
+    "wall_top": 9.2,
+    "pilot_diameter": 2.6
+  },
+  "parts": {
+    "left_tray": {
+      "size_mm": [
+        100.6499969959259,
+        85.3999969959259,
+        9.199999809265137
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "volume_mm3": 23084.714786067572,
+      "triangles": 2694
+    },
+    "right_tray": {
+      "size_mm": [
+        100.6499969959259,
+        85.3999969959259,
+        9.199999809265137
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "volume_mm3": 23084.71478606758,
+      "triangles": 2694
+    },
+    "left_plate_optional": {
+      "size_mm": [
+        95.25,
+        80.0,
+        1.6
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "volume_mm3": 4766.475407162226,
+      "triangles": 1340
+    },
+    "right_plate_optional": {
+      "size_mm": [
+        95.25,
+        80.0,
+        1.6
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "volume_mm3": 4766.475407162226,
+      "triangles": 1340
+    },
+    "screw_fit_coupon": {
+      "size_mm": [
+        18.0,
+        18.0,
+        8.0
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "volume_mm3": 811.7525712457727,
+      "triangles": 1036
+    }
+  }
+}

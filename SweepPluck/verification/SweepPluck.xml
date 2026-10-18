@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/mnt/d/QQWeChat/xwechat_files/punkrock_2000_03d5/msg/file/2026-10/Sweep/Sweep/SweepPluck/SweepPluck.kicad_sch</source>
+    <date>2026-10-14T16:21:32</date>
+    <tool>Eeschema 10.0.7-10.0.7~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SweepPluck reversible 17-key half</title>
+        <company/>
+        <rev>3.1</rev>
+        <date/>
+        <source>SweepPluck.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BATG1">
+      <value>Battery_GND</value>
+      <footprint>SweepPluck:Battery_Pad</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Battery_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P18" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84a89ff3-11e9-4ef6-9308-58e8ef24355e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="BATP1">
+      <value>Battery_BAT</value>
+      <footprint>SweepPluck:Battery_Pad</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Battery_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P19" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d0e180d-b9eb-48cc-af6d-b8057ac445b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack4dpb</value>
+      <footprint>SweepPluck:TRRS_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:TRRS_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P20" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd4f7e73-e222-4cda-a227-18b6ce3ef006</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="R1"/>
+            <pin num="R2"/>
+            <pin num="S"/>
+            <pin num="T"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RSW1">
+      <value>SW_Push_Reset</value>
+      <footprint>SweepPluck:Reset_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Reset_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P21" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64233bfc-b2eb-400f-8900-cdb88a26feeb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P0" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>454a24c3-92e2-4495-8ddd-69c869682b2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P9" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12eb760d-8a4b-49d9-bb2b-9bde7e4bf62b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P10" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5059b102-f48b-4d94-9dc4-88b795522b2f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P11" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e47b1bd-e28a-4d05-a1e9-2f10a6eb9763</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P12" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b07be7c4-d370-4606-abea-71869bc2ac9e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P13" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>808e4811-5cbb-475f-9fc0-b73fb5686e08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P14" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a2134fc-ff26-45b7-ab99-d1f26c8e5841</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P15" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>780a4f4f-ea35-482e-8561-621b1da857d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P16" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c25f331-c218-4430-8224-fa9a7f6b72ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P1" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae8c5f77-ec6f-4d44-bf83-e571ee9e3f96</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P2" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cd288dc-1ddc-4332-8d40-2a426a307ce0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P3" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f8928a5-220e-402a-9f61-97aa0ae5d2ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P4" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b60041e0-7e9d-4151-924b-73b1f1b5679b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P5" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d93296e-5f85-4769-8644-f4327b098573</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P6" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bcea067-be46-424f-9296-4c518965bd96</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P7" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e33cb25f-7729-4dfe-bcbb-3d53171d95a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>SweepPluck:Universal_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P8" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85d3f2e8-7965-4298-b6cf-7cc6c9b94922</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW_POWER1">
+      <value>SW_SPDT</value>
+      <footprint>SweepPluck:Power_Reversible</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:Power_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P17" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>497c9224-d9e1-43f7-a3ed-1cfca9451307</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ProMicro_DualRow</value>
+      <footprint>SweepPluck:ProMicro_DualRow</footprint>
+      <fields>
+        <field name="Footprint">SweepPluck:ProMicro_DualRow</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SweepPluck" part="P22" description=""/>
+      <property name="Sheetname" value="SweepPluck"/>
+      <property name="Sheetfile" value="SweepPluck.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62209fbb-8cc2-48bd-973d-b87affca6fb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SweepPluck" part="P0">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P1">
+      <fields>
+        <field name="Reference">SW10</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P10">
+      <fields>
+        <field name="Reference">SW3</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P11">
+      <fields>
+        <field name="Reference">SW4</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P12">
+      <fields>
+        <field name="Reference">SW5</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P13">
+      <fields>
+        <field name="Reference">SW6</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P14">
+      <fields>
+        <field name="Reference">SW7</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P15">
+      <fields>
+        <field name="Reference">SW8</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P16">
+      <fields>
+        <field name="Reference">SW9</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P17">
+      <fields>
+        <field name="Reference">SW_POWER1</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Footprint">SweepPluck:Power_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P18">
+      <fields>
+        <field name="Reference">BATG1</field>
+        <field name="Value">Battery_GND</field>
+        <field name="Footprint">SweepPluck:Battery_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P19">
+      <fields>
+        <field name="Reference">BATP1</field>
+        <field name="Value">Battery_BAT</field>
+        <field name="Footprint">SweepPluck:Battery_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P2">
+      <fields>
+        <field name="Reference">SW11</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P20">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">AudioJack4dpb</field>
+        <field name="Footprint">SweepPluck:TRRS_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="R1" name="R1" type="passive"/>
+        <pin num="R2" name="R2" type="passive"/>
+        <pin num="S" name="S" type="passive"/>
+        <pin num="T" name="T" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P21">
+      <fields>
+        <field name="Reference">RSW1</field>
+        <field name="Value">SW_Push_Reset</field>
+        <field name="Footprint">SweepPluck:Reset_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P22">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">ProMicro_DualRow</field>
+        <field name="Footprint">SweepPluck:ProMicro_DualRow</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TX" type="passive"/>
+        <pin num="2" name="RX" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="D4" type="passive"/>
+        <pin num="8" name="C6" type="passive"/>
+        <pin num="9" name="D7" type="passive"/>
+        <pin num="10" name="E6" type="passive"/>
+        <pin num="11" name="B4" type="passive"/>
+        <pin num="12" name="B5" type="passive"/>
+        <pin num="13" name="B6" type="passive"/>
+        <pin num="14" name="B2" type="passive"/>
+        <pin num="15" name="B3" type="passive"/>
+        <pin num="16" name="B1" type="passive"/>
+        <pin num="17" name="F7" type="passive"/>
+        <pin num="18" name="F6" type="passive"/>
+        <pin num="19" name="F5" type="passive"/>
+        <pin num="20" name="F4" type="passive"/>
+        <pin num="21" name="VCC" type="passive"/>
+        <pin num="22" name="RST" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="RAW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P3">
+      <fields>
+        <field name="Reference">SW12</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P4">
+      <fields>
+        <field name="Reference">SW13</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P5">
+      <fields>
+        <field name="Reference">SW14</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P6">
+      <fields>
+        <field name="Reference">SW15</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P7">
+      <fields>
+        <field name="Reference">SW16</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P8">
+      <fields>
+        <field name="Reference">SW17</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SweepPluck" part="P9">
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">SweepPluck:Universal_Reversible</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SweepPluck">
+      <uri>${KIPRJMOD}/SweepPluck.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BAT" class="Default">
+      <node ref="BATP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW_POWER1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="BATG1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="S" pinfunction="S_S" pintype="passive"/>
+      <node ref="J1" pin="T" pinfunction="T_T" pintype="passive"/>
+      <node ref="RSW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="passive"/>
+    </net>
+    <net code="3" name="RAW" class="Default">
+      <node ref="SW_POWER1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="RAW_24" pintype="passive"/>
+    </net>
+    <net code="4" name="RESET" class="Default">
+      <node ref="RSW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="RST_22" pintype="passive"/>
+    </net>
+    <net code="5" name="SERIAL" class="Default">
+      <node ref="J1" pin="R1" pinfunction="R1_R1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="RX_2" pintype="passive"/>
+    </net>
+    <net code="6" name="Switch1" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="E6_10" pintype="passive"/>
+    </net>
+    <net code="7" name="Switch2" class="Default">
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="F7_17" pintype="passive"/>
+    </net>
+    <net code="8" name="Switch3" class="Default">
+      <node ref="SW3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="F6_18" pintype="passive"/>
+    </net>
+    <net code="9" name="Switch4" class="Default">
+      <node ref="SW4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="F5_19" pintype="passive"/>
+    </net>
+    <net code="10" name="Switch5" class="Default">
+      <node ref="SW5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="F4_20" pintype="passive"/>
+    </net>
+    <net code="11" name="Switch6" class="Default">
+      <node ref="SW6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="B1_16" pintype="passive"/>
+    </net>
+    <net code="12" name="Switch7" class="Default">
+      <node ref="SW7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="B3_15" pintype="passive"/>
+    </net>
+    <net code="13" name="Switch8" class="Default">
+      <node ref="SW8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="B2_14" pintype="passive"/>
+    </net>
+    <net code="14" name="Switch9" class="Default">
+      <node ref="SW9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="B6_13" pintype="passive"/>
+    </net>
+    <net code="15" name="Switch10" class="Default">
+      <node ref="SW10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TX_1" pintype="passive"/>
+    </net>
+    <net code="16" name="Switch11" class="Default">
+      <node ref="SW11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SDA_5" pintype="passive"/>
+    </net>
+    <net code="17" name="Switch12" class="Default">
+      <node ref="SW12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SCL_6" pintype="passive"/>
+    </net>
+    <net code="18" name="Switch13" class="Default">
+      <node ref="SW13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D4_7" pintype="passive"/>
+    </net>
+    <net code="19" name="Switch14" class="Default">
+      <node ref="SW14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="C6_8" pintype="passive"/>
+    </net>
+    <net code="20" name="Switch15" class="Default">
+      <node ref="SW15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="D7_9" pintype="passive"/>
+    </net>
+    <net code="21" name="Switch16" class="Default">
+      <node ref="SW16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="B4_11" pintype="passive"/>
+    </net>
+    <net code="22" name="Switch17" class="Default">
+      <node ref="SW17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="B5_12" pintype="passive"/>
+    </net>
+    <net code="23" name="VCC" class="Default">
+      <node ref="J1" pin="R2" pinfunction="R2_R2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VCC_21" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(SW_POWER1-Pad1)" class="Default">
+      <node ref="SW_POWER1" pin="1" pinfunction="1_1" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
